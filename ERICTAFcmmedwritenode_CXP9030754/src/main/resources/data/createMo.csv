@@ -1,0 +1,2 @@
+moType,moId,parentType,attributes
+LoadModule,Doozers1,SwManagement,"loadModuleFilePath=path,productData=(productRevision=rev,productName=name,productInfo=info,productNumber=123,productionDate=20150325)"

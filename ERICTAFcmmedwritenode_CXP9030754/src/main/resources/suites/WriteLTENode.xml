@@ -1,0 +1,53 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Write LTE Node - Doozers">
+
+  <test name="'WriteNode' - Perform 'MO Update' acceptance tests.">
+    <classes>
+      <class name="com.ericsson.oss.mediation.cm.taf.testcases.MoUpdateTest">
+        <methods>
+          <include name="verifyMoUpdate"/>
+          <include name="verifyMoRefUpdate"/>
+          <include name="verifyMoRefListUpdate"/>
+          <include name="verifyBatchMoUpdate"/> 
+        </methods>
+      </class>
+    </classes>
+  </test>
+  
+   <test name="'WriteNode' - Perform 'MO Action' acceptance tests.">
+    <classes>
+      <class name="com.ericsson.oss.mediation.cm.taf.testcases.MoActionTest">
+        <methods>
+          <include name="testAction"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  
+  <test name="'WriteNode' - Perform 'Create/Delete MO' acceptance tests.">
+    <classes>
+      <class name="com.ericsson.oss.mediation.cm.taf.testcases.CreateDeleteMoTest">
+        <methods>
+          <include name="testCreateAndDeleteMo"/>
+          <include name="createRadioData"/>
+          <include name="deleteRadioData"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+
+  <!-- Important to run the following tests last until the NetSim issue referenced by the comments in TORF-87488 is resolved. -->
+
+  <test name="'WriteNode' - Perform 'MO Read' acceptance tests.">
+    <classes>
+      <class name="com.ericsson.oss.mediation.cm.taf.testcases.MoReadTest">
+        <methods>
+          <include name="readNonPersistentAttributes"/>
+          <include name="readMultiplePersistentAndNonPersistentMoAttributes"/>
+          <include name="readMoRefNonPersistentAttributes"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+
+</suite>

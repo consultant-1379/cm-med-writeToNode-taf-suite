@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.ericsson.nms.mediation</groupId>
+        <artifactId>cm-med-writeToNode-taf-suite</artifactId>
+        <version>1.23.8-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.ericsson.nms.mediation.testware</groupId>
+    <artifactId>ERICTAFcmmedwritenode_CXP9030754</artifactId>
+
+    <properties>
+        <network.element.id>LTE03ERBS00001</network.element.id>
+        <enm.user>WriteDoozer</enm.user>
+        <enm.password>Shroot12</enm.password>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.ericsson.oss.testware.network</groupId>
+            <artifactId>network-element-interaction</artifactId>
+            <version>${enm.network.test.library.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.oss.testware.security</groupId>
+            <artifactId>identity-management-rest-operators</artifactId>
+            <version>${version.enm-security-test-library}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.oss.services.cm</groupId>
+            <artifactId>script-engine-editor-spi</artifactId>
+            <version>${script.engine.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.oss.testware.cm</groupId>
+            <artifactId>node-integration</artifactId>
+            <version>${enm.cm.test.library.version}</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.ericsson.cifwk</groupId>
+            <artifactId>taf-netsim</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+    </build>
+
+</project>

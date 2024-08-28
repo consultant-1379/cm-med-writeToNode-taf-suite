@@ -1,0 +1,2 @@
+username,firstName,lastName,email,password,enabled,roles,passwordResetFlag
+WriteDoozer,test1,test1,test@test.ie,Shroot12,true,ADMINISTRATOR,false

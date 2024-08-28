@@ -1,0 +1,3 @@
+moType,testCaseAttributes,expectedResultAttributes,parentType,minNumberMos,moAttributes
+DrxProfile,"shortDrxCycleTimer=3","shortDrxCycleTimer=3",ENodeBFunction,12,""
+DrxProfile,"shortDrxCycleTimer=4","shortDrxCycleTimer=4",ENodeBFunction,12,""

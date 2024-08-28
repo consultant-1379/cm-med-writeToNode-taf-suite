@@ -1,0 +1,4 @@
+moType,actionName,parameters,verificationAttribute,cleanupAction,cleanupParameters
+ConfigurationVersion,create,"configurationVersionName=DoozerTestName01,identity=DoozerTest01,type=STANDARD,operatorName=doozersTest,comment=TestComment01","lastCreatedCv",delete,"configurationVersionName=DoozerTestName01"
+ConfigurationVersion,create,"configurationVersionName=DoozerTestName02,identity=DoozerTest02,type=STANDARD,operatorName=doozersTest,comment=TestComment02","lastCreatedCv",delete,"configurationVersionName=DoozerTestName02"
+UpgradePackage,install,null,actionResult,null,null

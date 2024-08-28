@@ -1,0 +1,23 @@
+moType,enmAttributeValuePairs,nrmAttributeValuePairs
+ENodeBFunction,userLabel=test,userLabel=test
+ENodeBFunction,userLabel=test1,userLabel=test1
+NodeManagementFunction,alarmSuppressed=true,alarmSuppressed=true
+NodeManagementFunction,alarmSuppressed=false,alarmSuppressed=false
+AnrFunction,removeNrelTime=30,removeNrelTime=30
+AnrFunction,removeNrelTime=40,removeNrelTime=40
+AnrFunction,"removeNrelTime=30,zzzTemporary4=test","removeNrelTime=30,zzzTemporary4=test"
+AnrFunction,"removeNrelTime=40,zzzTemporary4=test1","removeNrelTime=40,zzzTemporary4=test1"
+ENodeBFunction,dnsLookupOnTai=ON,dnsLookupOnTai=1
+ENodeBFunction,dnsLookupOnTai=OFF,dnsLookupOnTai=0
+EUtranCellFDD,"ssacBarringForMMTELVoice=(acBarringFactor=95,acBarringTime=64,acBarringForSpecialAC=[true,true,true,true,true])","ssacBarringForMMTELVoice=(acBarringFactor=95,acBarringTime=64,acBarringForSpecialAC=[true,true,true,true,true],ssacBarringForMMTELVoicePresent=false)"
+EUtranCellFDD,"ssacBarringForMMTELVoice=(acBarringFactor=85,acBarringTime=32,acBarringForSpecialAC=[false,false,false,false,false])","ssacBarringForMMTELVoice=(acBarringFactor=85,acBarringTime=32,acBarringForSpecialAC=[false,false,false,false,false],ssacBarringForMMTELVoicePresent=false)"
+ENodeBFunction,"eNodeBPlmnId=(mcc=555, mnc=40, mncLength=3)","eNodeBPlmnId=(mcc=555, mnc=40, mncLength=3)"
+ENodeBFunction,"eNodeBPlmnId=(mcc=500, mnc=57, mncLength=2)","eNodeBPlmnId=(mcc=500, mnc=57, mncLength=2)"
+ENodeBFunction,"x2BlackList=[(mcc=100, mnc=60, mncLength=2, enbId=0),(mcc=999, mnc=999, mncLength=3, enbId=100)]","x2BlackList=[(mcc=100, mnc=60, mnclength=2, enbid=0),(mcc=999, mnc=999, mnclength=3, enbid=100)]"
+ENodeBFunction,"x2BlackList=[(mcc=353, mnc=67, mncLength=3, enbId=0),(mcc=500, mnc=10, mncLength=2, enbId=100000)]","x2BlackList=[(mcc=353, mnc=67, mnclength=3, enbid=0),(mcc=500, mnc=10, mnclength=2, enbid=100000)]"
+EUtranCellFDD,"additionalPlmnReservedList=[true,true,false,true,false]","additionalPlmnReservedList=[true,true,false,true,false]"
+EUtranCellFDD,"additionalPlmnReservedList=[false,true,false,true,false]","additionalPlmnReservedList=[false,true,false,true,false]"
+RfBranch,"ulAttenuation=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]","ulAttenuation=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]"
+RfBranch,"ulAttenuation=[15,14,13,12,11,10,9,8,7,6,5,4,3,2,1]","ulAttenuation=[15,14,13,12,11,10,9,8,7,6,5,4,3,2,1]"
+EUtranCellFDD,"pciConflict=[NO, NO_CONFLICTING_CELL, YES, YES_CONFLICTING_CELL]","pciConflict=[NO, NO_CONFLICTING_CELL, YES, YES_CONFLICTING_CELL]"
+EUtranCellFDD,"pciConflict=[YES, YES_CONFLICTING_CELL]","pciConflict=[YES, YES_CONFLICTING_CELL]"
